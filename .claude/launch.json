@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "expense-xt-landing",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 5173
+    },
+    {
+      "name": "expense-xt-app-web",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "C:\\Users\\ALI COMP\\OneDrive\\Desktop\\Expense XT\\expense-tracker\\frontend", "run", "web"],
+      "port": 8081
+    }
+  ]
+}

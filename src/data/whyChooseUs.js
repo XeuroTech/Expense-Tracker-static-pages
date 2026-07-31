@@ -1,0 +1,41 @@
+import TouchAppOutlinedIcon from '@mui/icons-material/TouchAppOutlined';
+import SpeedOutlinedIcon from '@mui/icons-material/SpeedOutlined';
+import ShieldOutlinedIcon from '@mui/icons-material/ShieldOutlined';
+import DevicesOutlinedIcon from '@mui/icons-material/DevicesOutlined';
+import AutoAwesomeOutlinedIcon from '@mui/icons-material/AutoAwesomeOutlined';
+import QueryStatsOutlinedIcon from '@mui/icons-material/QueryStatsOutlined';
+
+const whyChooseUs = [
+  {
+    icon: TouchAppOutlinedIcon,
+    title: 'Easy to Use',
+    description: 'An intuitive interface designed so anyone can start tracking finances instantly.',
+  },
+  {
+    icon: SpeedOutlinedIcon,
+    title: 'Fast',
+    description: 'Optimized performance means instant loading and zero lag, even offline.',
+  },
+  {
+    icon: ShieldOutlinedIcon,
+    title: 'Secure',
+    description: 'Bank-grade encryption keeps your financial data private and protected.',
+  },
+  {
+    icon: DevicesOutlinedIcon,
+    title: 'Responsive',
+    description: 'A seamless experience across mobile, tablet, and desktop devices.',
+  },
+  {
+    icon: AutoAwesomeOutlinedIcon,
+    title: 'Clean Design',
+    description: 'A modern, distraction-free interface that makes managing money enjoyable.',
+  },
+  {
+    icon: QueryStatsOutlinedIcon,
+    title: 'Smart Analytics',
+    description: 'Actionable insights and trends that help you spend and save smarter.',
+  },
+];
+
+export default whyChooseUs;

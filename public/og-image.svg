@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B0B1E" />
+      <stop offset="55%" stop-color="#1B1B49" />
+      <stop offset="100%" stop-color="#232370" />
+    </linearGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5B5BF6" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect x="80" y="80" width="96" height="96" rx="24" fill="url(#mark)" />
+  <path d="M110 118a16 16 0 0 1 16-16h48a8 8 0 0 1 8 8v6H126a8 8 0 1 0 0 16h56a8 8 0 0 1 8 8v34a8 8 0 0 1-8 8h-56a16 16 0 0 1-16-16z" fill="#fff" opacity="0.95" />
+  <text x="200" y="150" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">Expense<tspan fill="#8A8CFF">XT</tspan></text>
+  <text x="80" y="280" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">Track Expenses. Plan Budgets.</text>
+  <text x="80" y="340" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#8A8CFF">Grow Savings.</text>
+  <text x="80" y="400" font-family="Arial, sans-serif" font-size="24" fill="rgba(255,255,255,0.7)">A modern, secure, and simple expense tracker for iOS &amp; Android.</text>
+</svg>
