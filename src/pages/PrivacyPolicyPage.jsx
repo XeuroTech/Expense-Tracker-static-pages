@@ -11,7 +11,7 @@ export default function PrivacyPolicyPage() {
     <>
       <Seo
         title="Privacy Policy"
-        description="Read the ExpenseXT Privacy Policy to learn how we collect, use, and protect your personal and financial information."
+        description="Read the Expense-Tracker Privacy Policy to learn how we collect, use, and protect your personal and financial information."
         path="/privacy-policy"
       />
       <PageHeader

@@ -1,26 +1,23 @@
 import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
-/**
- * Mobile-first feature card: screenshot always visible on top (no hover
- * needed on touch devices), icon + copy below.
- */
-export default function FeatureCard({ icon: Icon, title, description, image }) {
+export default function ProFeatureCard({ icon: Icon, title, description, image }) {
   return (
     <Card
       variant="outlined"
       sx={{
+        height: '100%',
         overflow: 'hidden',
         border: '1px solid',
-        borderColor: 'divider',
+        borderColor: 'rgba(255,165,2,0.25)',
+        bgcolor: 'background.paper',
         transition: 'transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease',
         '&:hover': {
-          transform: 'translateY(-4px)',
-          boxShadow: 6,
-          borderColor: 'primary.main',
+          transform: 'translateY(-6px)',
+          boxShadow: '0 16px 40px rgba(255,165,2,0.15)',
+          borderColor: '#FFA502',
         },
       }}
     >
@@ -32,21 +29,21 @@ export default function FeatureCard({ icon: Icon, title, description, image }) {
           sx={{ width: '100%', aspectRatio: '4 / 3', display: 'block', objectFit: 'cover' }}
         />
       )}
-      <CardContent>
+      <Box sx={{ p: 3 }}>
         <Stack direction="row" spacing={1.5} sx={{ alignItems: 'center', mb: 1 }}>
           <Box
             sx={{
-              width: 36,
-              height: 36,
+              width: 40,
+              height: 40,
               flexShrink: 0,
               borderRadius: '12px',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              bgcolor: 'rgba(255,107,107,0.12)',
+              backgroundImage: 'linear-gradient(135deg, #FFA502 0%, #FF6B6B 100%)',
             }}
           >
-            <Icon sx={{ color: 'primary.main', fontSize: '1.2rem' }} />
+            <Icon sx={{ color: '#fff', fontSize: '1.2rem' }} />
           </Box>
           <Typography variant="h6" sx={{ fontSize: '1.05rem' }}>
             {title}
@@ -55,7 +52,7 @@ export default function FeatureCard({ icon: Icon, title, description, image }) {
         <Typography variant="body2" color="text.secondary" sx={{ lineHeight: 1.7 }}>
           {description}
         </Typography>
-      </CardContent>
+      </Box>
     </Card>
   );
 }

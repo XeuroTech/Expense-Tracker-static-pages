@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="badgeAi" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFA502" /><stop offset="100%" stop-color="#FF6B6B" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="#121212" />
+  <rect x="20" y="20" width="36" height="36" rx="11" fill="url(#badgeAi)" />
+  <path d="M38 28 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3 z" fill="#fff" />
+  <text x="68" y="34" font-family="Inter, Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="700">AI Smart Add</text>
+  <text x="68" y="50" font-family="Inter, Arial, sans-serif" font-size="10" fill="#A0A0A0">Just type it, we'll do the rest</text>
+
+  <rect x="20" y="76" width="360" height="52" rx="16" fill="#1E1E1E" stroke="#2C2C2C" />
+  <text x="38" y="98" font-family="Inter, Arial, sans-serif" font-size="11" fill="#A0A0A0">You typed</text>
+  <text x="38" y="116" font-family="Inter, Arial, sans-serif" font-size="13" fill="#FFFFFF" font-style="italic">"Spent $12 on coffee at Starbucks"</text>
+
+  <path d="M200 132 v18" stroke="#FFA502" stroke-width="2" />
+  <path d="M193 146 l7 8 7 -8" fill="none" stroke="#FFA502" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+
+  <rect x="20" y="158" width="360" height="118" rx="16" fill="#1E1E1E" stroke="#FFA502" />
+  <text x="38" y="180" font-family="Inter, Arial, sans-serif" font-size="11" fill="#FFA502" font-weight="600">Detected automatically</text>
+
+  <text x="38" y="204" font-family="Inter, Arial, sans-serif" font-size="10" fill="#A0A0A0">Amount</text>
+  <text x="362" y="204" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="12" fill="#FFFFFF" font-weight="600">$12.00</text>
+  <line x1="38" y1="212" x2="362" y2="212" stroke="#2C2C2C" />
+
+  <text x="38" y="232" font-family="Inter, Arial, sans-serif" font-size="10" fill="#A0A0A0">Category</text>
+  <circle cx="336" cy="228" r="5" fill="#FF6B6B" />
+  <text x="346" y="232" font-family="Inter, Arial, sans-serif" font-size="12" fill="#FFFFFF" font-weight="600">Groceries</text>
+  <line x1="38" y1="240" x2="362" y2="240" stroke="#2C2C2C" />
+
+  <text x="38" y="260" font-family="Inter, Arial, sans-serif" font-size="10" fill="#A0A0A0">Wallet</text>
+  <text x="362" y="260" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="12" fill="#FFFFFF" font-weight="600">Cash</text>
+</svg>

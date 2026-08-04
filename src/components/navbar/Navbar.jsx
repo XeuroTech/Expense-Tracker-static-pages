@@ -22,10 +22,7 @@ import AccountBalanceWalletRoundedIcon from '@mui/icons-material/AccountBalanceW
 const navLinks = [
   { label: 'Home', href: '/', type: 'route' },
   { label: 'Features', href: '/#features', type: 'section' },
-  { label: 'Screenshots', href: '/#screenshots', type: 'section' },
   { label: 'About', href: '/about', type: 'route' },
-  { label: 'Privacy', href: '/privacy-policy', type: 'route' },
-  { label: 'FAQ', href: '/#faq', type: 'section' },
   { label: 'Contact', href: '/contact', type: 'route' },
 ];
 
@@ -66,7 +63,7 @@ export default function Navbar() {
         position="sticky"
         elevation={0}
         sx={{
-          bgcolor: scrolled ? 'rgba(255,255,255,0.85)' : 'transparent',
+          bgcolor: scrolled ? 'rgba(18,18,18,0.85)' : 'transparent',
           backdropFilter: scrolled ? 'blur(12px)' : 'none',
           borderBottom: scrolled ? '1px solid' : '1px solid transparent',
           borderColor: 'divider',
@@ -91,13 +88,13 @@ export default function Navbar() {
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  backgroundImage: 'linear-gradient(135deg, #5B5BF6 0%, #10B981 100%)',
+                  backgroundImage: 'linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 100%)',
                 }}
               >
                 <AccountBalanceWalletRoundedIcon sx={{ color: '#fff', fontSize: '1.35rem' }} />
               </Box>
               <Typography variant="h6" sx={{ fontWeight: 700 }}>
-                Expense<Box component="span" sx={{ color: 'primary.main' }}>XT</Box>
+                Expense-<Box component="span" sx={{ color: 'primary.main' }}>Tracker</Box>
               </Typography>
             </Stack>
 
@@ -115,16 +112,30 @@ export default function Navbar() {
               ))}
             </Stack>
 
-            <Button
-              variant="contained"
-              color="primary"
-              sx={{ display: { xs: 'none', md: 'inline-flex' } }}
-              component={RouterLink}
-              to="/#hero"
-              onClick={handleNavClick({ type: 'section', href: '/#hero' })}
-            >
-              Get the App
-            </Button>
+            <Stack direction="row" spacing={1} sx={{ display: { xs: 'none', md: 'flex' } }}>
+              <Button
+                variant="outlined"
+                component={RouterLink}
+                to="/pro"
+                onClick={handleNavClick({ type: 'route', href: '/pro' })}
+                sx={{
+                  color: '#FFA502',
+                  borderColor: 'rgba(255,165,2,0.5)',
+                  '&:hover': { borderColor: '#FFA502', bgcolor: 'rgba(255,165,2,0.08)' },
+                }}
+              >
+                Go Pro
+              </Button>
+              <Button
+                variant="contained"
+                color="primary"
+                component={RouterLink}
+                to="/#hero"
+                onClick={handleNavClick({ type: 'section', href: '/#hero' })}
+              >
+                Get Started
+              </Button>
+            </Stack>
 
             <IconButton
               sx={{ display: { xs: 'inline-flex', md: 'none' } }}
@@ -138,7 +149,7 @@ export default function Navbar() {
       </AppBar>
 
       <Drawer anchor="right" open={mobileOpen} onClose={() => setMobileOpen(false)}>
-        <Box sx={{ width: 280, pt: 2 }} role="presentation">
+        <Box sx={{ width: '80vw', maxWidth: 300, pt: 2 }} role="presentation">
           <Stack direction="row" sx={{ px: 2, pb: 1, justifyContent: 'space-between', alignItems: 'center' }}>
             <Typography variant="h6" sx={{ fontWeight: 700 }}>
               Menu
@@ -157,16 +168,32 @@ export default function Navbar() {
               </ListItem>
             ))}
             <ListItem sx={{ mt: 1 }}>
-              <Button
-                fullWidth
-                variant="contained"
-                color="primary"
-                component={RouterLink}
-                to="/#hero"
-                onClick={handleNavClick({ type: 'section', href: '/#hero' })}
-              >
-                Get the App
-              </Button>
+              <Stack spacing={1.5} sx={{ width: '100%' }}>
+                <Button
+                  fullWidth
+                  variant="outlined"
+                  component={RouterLink}
+                  to="/pro"
+                  onClick={handleNavClick({ type: 'route', href: '/pro' })}
+                  sx={{
+                    color: '#FFA502',
+                    borderColor: 'rgba(255,165,2,0.5)',
+                    '&:hover': { borderColor: '#FFA502', bgcolor: 'rgba(255,165,2,0.08)' },
+                  }}
+                >
+                  Go Pro
+                </Button>
+                <Button
+                  fullWidth
+                  variant="contained"
+                  color="primary"
+                  component={RouterLink}
+                  to="/#hero"
+                  onClick={handleNavClick({ type: 'section', href: '/#hero' })}
+                >
+                  Join Waitlist
+                </Button>
+              </Stack>
             </ListItem>
           </List>
         </Box>

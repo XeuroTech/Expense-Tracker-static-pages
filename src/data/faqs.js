@@ -1,33 +1,36 @@
 const faqs = [
   {
-    question: 'Is the Expense Tracker app free to use?',
+    question: 'Is Expense-Tracker free to use?',
     answer:
-      'Yes, the core features including expense tracking, income tracking, and budget planning are free to use. Additional premium features may be introduced in the future.',
+      'Yes — core features like expense tracking, income tracking, and budget planning will always be free. A Pro plan with extra features like AI Smart Add and cloud sync will also be available.',
   },
   {
-    question: 'Is my financial data secure?',
+    question: 'When is Expense-Tracker launching, and how do I find out?',
     answer:
-      'Absolutely. All your data is encrypted both in transit and at rest, and we never share your personal financial information with third parties without your consent.',
+      "We're putting the finishing touches on the app right now. Join the waitlist and you'll be the first to know the moment it's live.",
   },
   {
-    question: 'Can I use the app on multiple devices?',
-    answer:
-      'Yes, the app is fully responsive and works seamlessly across mobile, tablet, and desktop devices with your data kept in sync.',
+    question: 'Which platforms will it be available on?',
+    answer: 'Expense-Tracker will launch on both iOS and Android, with your data synced across devices.',
   },
   {
-    question: 'Does the app support multiple currencies?',
+    question: 'Will my financial data be secure?',
     answer:
-      'Yes, you can set your preferred currency in Settings, and all reports and charts will automatically reflect it.',
+      'Yes. Your data will be encrypted both in transit and at rest, and it will never be shared with third parties without your consent.',
   },
   {
-    question: 'Can I export my reports?',
+    question: 'Will the app support multiple currencies and exportable reports?',
     answer:
-      'Yes, monthly and yearly reports can be generated and exported directly from the Reports section of the app.',
+      "Yes — you'll be able to set your preferred currency in Settings, and generate exportable monthly or yearly reports from the Reports section.",
   },
   {
-    question: 'How do I get support if I run into an issue?',
+    question: "What's the difference between Free and Pro?",
     answer:
-      'You can reach our support team anytime through the Contact page, and we typically respond within 24 hours.',
+      'Free covers everyday tracking and budgeting with sensible limits. Pro removes those limits and adds features like AI Smart Add, cloud sync, and split expenses — see the Pro page for the full comparison.',
+  },
+  {
+    question: 'How can I get in touch?',
+    answer: 'You can reach the XeuroTech team anytime through the Contact page.',
   },
 ];
 

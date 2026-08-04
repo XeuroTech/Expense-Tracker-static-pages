@@ -1,42 +1,36 @@
-import DashboardOutlinedIcon from '@mui/icons-material/DashboardOutlined';
-import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutlineOutlined';
-import InsightsOutlinedIcon from '@mui/icons-material/InsightsOutlined';
-import AssessmentOutlinedIcon from '@mui/icons-material/AssessmentOutlined';
-import CategoryOutlinedIcon from '@mui/icons-material/CategoryOutlined';
-import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
-
-// Replace `icon` usage with a real screenshot image once available — see
-// PlaceholderImage.jsx for the swap instructions.
+// Full portrait phone screens, shown inside a phone-frame mockup in the
+// Screenshots carousel. Swap any file here for a real device screenshot
+// any time — the component doesn't need to change.
 const screenshots = [
   {
-    icon: DashboardOutlinedIcon,
+    image: '/app-preview.svg',
     title: 'Dashboard',
-    description: 'A complete overview of your balance, income, and expenses at a glance.',
+    description: 'A complete overview of your total balance, wallets, and recent activity.',
   },
   {
-    icon: AddCircleOutlineIcon,
-    title: 'Add Expense',
-    description: 'Quickly add a new expense with category, amount, and notes.',
+    image: '/screens/full/add-expense.svg',
+    title: 'Add Transaction',
+    description: 'Log an expense, income, transfer, and more in just a few taps.',
   },
   {
-    icon: InsightsOutlinedIcon,
-    title: 'Statistics',
+    image: '/screens/full/statistics.svg',
+    title: 'Analytics',
     description: 'Interactive charts that break down your spending habits over time.',
   },
   {
-    icon: AssessmentOutlinedIcon,
-    title: 'Reports',
-    description: 'Downloadable monthly and yearly reports for deeper financial insight.',
+    image: '/screens/full/reports.svg',
+    title: 'History',
+    description: 'Search and export every transaction, grouped by day.',
   },
   {
-    icon: CategoryOutlinedIcon,
+    image: '/screens/full/categories.svg',
     title: 'Categories',
-    description: 'Create and manage custom categories to organize every transaction.',
+    description: 'A collapsible category tree you fully customize for every transaction.',
   },
   {
-    icon: SettingsOutlinedIcon,
-    title: 'Settings',
-    description: 'Personalize currency, theme, notifications, and account preferences.',
+    image: '/screens/full/settings.svg',
+    title: 'Profile',
+    description: 'Manage your account, plan, and notification preferences.',
   },
 ];
 

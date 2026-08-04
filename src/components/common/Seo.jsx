@@ -1,8 +1,8 @@
 import { Helmet } from 'react-helmet-async';
 
-const SITE_NAME = 'ExpenseXT';
+const SITE_NAME = 'Expense-Tracker';
 const DEFAULT_DESCRIPTION =
-  'ExpenseXT is a modern expense tracker to manage income, expenses, budgets, and financial reports with ease.';
+  'Expense-Tracker is a modern expense tracker to manage income, expenses, budgets, and financial reports with ease.';
 
 /**
  * Drop into any page to set per-route title/meta/Open Graph tags.
@@ -14,13 +14,13 @@ export default function Seo({ title, description = DEFAULT_DESCRIPTION, path = '
     <Helmet>
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
-      <link rel="canonical" href={`https://www.expensext.app${path}`} />
+      <link rel="canonical" href={`https://www.expense-tracker.app${path}`} />
 
       <meta property="og:type" content="website" />
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:site_name" content={SITE_NAME} />
-      <meta property="og:url" content={`https://www.expensext.app${path}`} />
+      <meta property="og:url" content={`https://www.expense-tracker.app${path}`} />
       <meta property="og:image" content="/og-image.svg" />
 
       <meta name="twitter:card" content="summary_large_image" />

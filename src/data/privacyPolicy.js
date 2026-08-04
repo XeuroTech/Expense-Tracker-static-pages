@@ -4,13 +4,13 @@ const privacyPolicySections = [
   {
     title: 'Introduction',
     body: [
-      'Welcome to ExpenseXT ("we", "our", or "us"). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains what information we collect, how we use it, and what rights you have in relation to it.',
-      'By using the ExpenseXT application, you agree to the collection and use of information in accordance with this policy.',
+      'Welcome to Expense-Tracker ("we", "our", or "us"). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains what information we collect, how we use it, and what rights you have in relation to it.',
+      'By using the Expense-Tracker application, you agree to the collection and use of information in accordance with this policy.',
     ],
   },
   {
     title: 'Information We Collect',
-    intro: 'We may collect the following types of information when you use ExpenseXT:',
+    intro: 'We may collect the following types of information when you use Expense-Tracker:',
     bullets: true,
     body: [
       'Account information such as your name, email address, and password.',
@@ -68,13 +68,13 @@ const privacyPolicySections = [
   {
     title: "Children's Privacy",
     body: [
-      'ExpenseXT is not directed at children under the age of 13, and we do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us so we can remove it.',
+      'Expense-Tracker is not directed at children under the age of 13, and we do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us so we can remove it.',
     ],
   },
   {
     title: 'Contact Information',
     body: [
-      'If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at privacy@expensext.app.',
+      'If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at privacy@expense-tracker.app.',
     ],
   },
 ];

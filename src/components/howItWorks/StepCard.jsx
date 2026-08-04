@@ -25,7 +25,7 @@ export default function StepCard({ step, icon: Icon, title, description }) {
           right: 20,
           fontSize: '2.75rem',
           fontWeight: 800,
-          color: 'rgba(91, 91, 246, 0.08)',
+          color: 'rgba(255, 107, 107, 0.12)',
           lineHeight: 1,
         }}
       >
@@ -40,7 +40,7 @@ export default function StepCard({ step, icon: Icon, title, description }) {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            backgroundImage: 'linear-gradient(135deg, #5B5BF6 0%, #10B981 100%)',
+            backgroundImage: 'linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 100%)',
           }}
         >
           <Icon sx={{ color: '#fff', fontSize: '1.5rem' }} />

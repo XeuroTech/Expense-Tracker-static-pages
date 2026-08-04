@@ -11,13 +11,13 @@ export default function TermsConditionsPage() {
     <>
       <Seo
         title="Terms & Conditions"
-        description="Read the ExpenseXT Terms & Conditions covering account use, subscriptions, intellectual property, and liability."
+        description="Read the Expense-Tracker Terms & Conditions covering account use, subscriptions, intellectual property, and liability."
         path="/terms-conditions"
       />
       <PageHeader
         eyebrow="Legal"
         title="Terms & Conditions"
-        subtitle="Please read these terms carefully before using ExpenseXT."
+        subtitle="Please read these terms carefully before using Expense-Tracker."
       />
       <Box sx={{ py: { xs: 6, md: 10 } }}>
         <Container maxWidth="md">

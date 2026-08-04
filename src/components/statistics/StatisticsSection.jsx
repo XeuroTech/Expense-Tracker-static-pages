@@ -9,7 +9,7 @@ export default function StatisticsSection() {
     <Box
       sx={{
         py: { xs: 8, md: 10 },
-        backgroundImage: 'linear-gradient(135deg, #0B0B1E 0%, #232370 100%)',
+        backgroundImage: 'linear-gradient(135deg, #0A0A0A 0%, #2B1414 100%)',
       }}
     >
       <Container maxWidth="lg">

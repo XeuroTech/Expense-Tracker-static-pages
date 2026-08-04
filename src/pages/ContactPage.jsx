@@ -6,18 +6,14 @@ import Typography from '@mui/material/Typography';
 import Paper from '@mui/material/Paper';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import PhoneOutlinedIcon from '@mui/icons-material/PhoneOutlined';
-import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
-import MapOutlinedIcon from '@mui/icons-material/MapOutlined';
 import Seo from '../components/common/Seo';
 import PageHeader from '../components/common/PageHeader';
 import Reveal from '../components/common/Reveal';
-import PlaceholderImage from '../components/common/PlaceholderImage';
 import ContactForm from '../components/contact/ContactForm';
 
 const contactDetails = [
-  { icon: EmailOutlinedIcon, label: 'Email', value: 'support@expensext.app' },
+  { icon: EmailOutlinedIcon, label: 'Email', value: 'support@expense-tracker.app' },
   { icon: PhoneOutlinedIcon, label: 'Phone', value: '+1 (555) 123-4567' },
-  { icon: LocationOnOutlinedIcon, label: 'Address', value: '123 Finance Street, Suite 400, San Francisco, CA 94103' },
 ];
 
 export default function ContactPage() {
@@ -25,13 +21,13 @@ export default function ContactPage() {
     <>
       <Seo
         title="Contact Us"
-        description="Get in touch with the ExpenseXT team — send us a message, or find our email, phone, and office address."
+        description="Get in touch with XeuroTech, the team behind Expense-Tracker — send us a message, or reach us by email or phone."
         path="/contact"
       />
       <PageHeader
         eyebrow="Contact Us"
         title="We'd love to hear from you"
-        subtitle="Questions, feedback, or partnership ideas — send us a message and our team will respond shortly."
+        subtitle="Questions, feedback, or partnership ideas — send us a message and the XeuroTech team will respond shortly."
       />
 
       <Box sx={{ py: { xs: 8, md: 12 } }}>
@@ -56,7 +52,7 @@ export default function ContactPage() {
                             display: 'flex',
                             alignItems: 'center',
                             justifyContent: 'center',
-                            backgroundImage: 'linear-gradient(135deg, rgba(91,91,246,0.12) 0%, rgba(16,185,129,0.12) 100%)',
+                            backgroundImage: 'linear-gradient(135deg, rgba(255,107,107,0.12) 0%, rgba(78,205,196,0.12) 100%)',
                           }}
                         >
                           <detail.icon sx={{ color: 'primary.main' }} />
@@ -72,9 +68,6 @@ export default function ContactPage() {
                       </Stack>
                     </Paper>
                   ))}
-
-                  {/* Swap for a real embedded <iframe> map once an address is finalized */}
-                  <PlaceholderImage label="Google Maps Placeholder" ratio="4 / 3" icon={MapOutlinedIcon} />
                 </Stack>
               </Reveal>
             </Grid>

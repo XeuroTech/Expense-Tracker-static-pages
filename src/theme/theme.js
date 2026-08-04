@@ -1,19 +1,20 @@
 import { createTheme } from '@mui/material/styles';
 
-// Central design tokens for the landing page. Swap these values to re-skin
-// the whole site without touching any component.
+// Central design tokens for the landing page, mirrored from the mobile app's
+// own design system (frontend/constants/Colors.ts) so the site feels like an
+// extension of the app itself: coral-red + near-black as the major colors.
 export const palette = {
-  primary: '#5B5BF6', // indigo/violet - primary brand color
-  primaryDark: '#3730E0',
-  secondary: '#10B981', // emerald - "money/growth" accent
-  secondaryDark: '#059669',
-  darkBg: '#0B0B1E', // deep navy used in hero / footer gradients
-  darkBg2: '#171742',
+  primary: '#FF6B6B', // vibrant coral-red - matches the app's primary color
+  primaryDark: '#E14D4D',
+  secondary: '#4ECDC4', // soft teal - matches the app's secondary accent
+  secondaryDark: '#3BA89F',
+  darkBg: '#0A0A0A', // near-black used in hero / footer gradients
+  darkBg2: '#241414', // black blending into a deep red-black tone
 };
 
 const theme = createTheme({
   palette: {
-    mode: 'light',
+    mode: 'dark',
     primary: {
       main: palette.primary,
       dark: palette.primaryDark,
@@ -24,15 +25,24 @@ const theme = createTheme({
       dark: palette.secondaryDark,
       contrastText: '#ffffff',
     },
+    success: {
+      main: '#2ECC71',
+    },
+    error: {
+      main: '#FF4757',
+    },
+    warning: {
+      main: '#FFA502',
+    },
     background: {
-      default: '#FAFAFC',
-      paper: '#FFFFFF',
+      default: '#121212', // deep dark, matches the app's background
+      paper: '#1E1E1E', // matches the app's card/surface color
     },
     text: {
-      primary: '#171733',
-      secondary: '#5C5C77',
+      primary: '#FFFFFF',
+      secondary: '#A0A0A0',
     },
-    divider: 'rgba(23, 23, 51, 0.08)',
+    divider: 'rgba(255, 255, 255, 0.08)',
   },
   typography: {
     fontFamily: '"Inter", "Poppins", "Roboto", "Helvetica", "Arial", sans-serif',
@@ -73,30 +83,30 @@ const theme = createTheme({
   },
   shadows: [
     'none',
-    '0 2px 8px rgba(23, 23, 51, 0.06)',
-    '0 4px 12px rgba(23, 23, 51, 0.08)',
-    '0 6px 16px rgba(23, 23, 51, 0.08)',
-    '0 8px 20px rgba(23, 23, 51, 0.10)',
-    '0 10px 24px rgba(23, 23, 51, 0.10)',
-    '0 12px 28px rgba(23, 23, 51, 0.12)',
-    '0 14px 32px rgba(23, 23, 51, 0.12)',
-    '0 16px 36px rgba(23, 23, 51, 0.14)',
-    '0 18px 40px rgba(23, 23, 51, 0.14)',
-    '0 20px 44px rgba(23, 23, 51, 0.16)',
-    '0 22px 48px rgba(23, 23, 51, 0.16)',
-    '0 24px 52px rgba(23, 23, 51, 0.18)',
-    '0 26px 56px rgba(23, 23, 51, 0.18)',
-    '0 28px 60px rgba(23, 23, 51, 0.20)',
-    '0 30px 64px rgba(23, 23, 51, 0.20)',
-    '0 32px 68px rgba(23, 23, 51, 0.20)',
-    '0 34px 72px rgba(23, 23, 51, 0.22)',
-    '0 36px 76px rgba(23, 23, 51, 0.22)',
-    '0 38px 80px rgba(23, 23, 51, 0.22)',
-    '0 40px 84px rgba(23, 23, 51, 0.24)',
-    '0 42px 88px rgba(23, 23, 51, 0.24)',
-    '0 44px 92px rgba(23, 23, 51, 0.24)',
-    '0 46px 96px rgba(23, 23, 51, 0.26)',
-    '0 48px 100px rgba(23, 23, 51, 0.26)',
+    '0 2px 8px rgba(0, 0, 0, 0.06)',
+    '0 4px 12px rgba(0, 0, 0, 0.08)',
+    '0 6px 16px rgba(0, 0, 0, 0.08)',
+    '0 8px 20px rgba(0, 0, 0, 0.10)',
+    '0 10px 24px rgba(0, 0, 0, 0.10)',
+    '0 12px 28px rgba(0, 0, 0, 0.12)',
+    '0 14px 32px rgba(0, 0, 0, 0.12)',
+    '0 16px 36px rgba(0, 0, 0, 0.14)',
+    '0 18px 40px rgba(0, 0, 0, 0.14)',
+    '0 20px 44px rgba(0, 0, 0, 0.16)',
+    '0 22px 48px rgba(0, 0, 0, 0.16)',
+    '0 24px 52px rgba(0, 0, 0, 0.18)',
+    '0 26px 56px rgba(0, 0, 0, 0.18)',
+    '0 28px 60px rgba(0, 0, 0, 0.20)',
+    '0 30px 64px rgba(0, 0, 0, 0.20)',
+    '0 32px 68px rgba(0, 0, 0, 0.20)',
+    '0 34px 72px rgba(0, 0, 0, 0.22)',
+    '0 36px 76px rgba(0, 0, 0, 0.22)',
+    '0 38px 80px rgba(0, 0, 0, 0.22)',
+    '0 40px 84px rgba(0, 0, 0, 0.24)',
+    '0 42px 88px rgba(0, 0, 0, 0.24)',
+    '0 44px 92px rgba(0, 0, 0, 0.24)',
+    '0 46px 96px rgba(0, 0, 0, 0.26)',
+    '0 48px 100px rgba(0, 0, 0, 0.26)',
   ],
   components: {
     MuiButton: {
@@ -109,10 +119,14 @@ const theme = createTheme({
           paddingBottom: 10,
         },
         containedPrimary: {
-          backgroundImage: `linear-gradient(135deg, ${palette.primary} 0%, ${palette.primaryDark} 100%)`,
-          boxShadow: '0 8px 24px rgba(91, 91, 246, 0.35)',
+          // Flat, solid coral-red — matches the app's actual Button.tsx exactly
+          // (the app uses a flat COLORS.primary fill, not a gradient).
+          backgroundColor: palette.primary,
+          backgroundImage: 'none',
+          boxShadow: '0 8px 24px rgba(255, 107, 107, 0.35)',
           '&:hover': {
-            boxShadow: '0 10px 30px rgba(91, 91, 246, 0.45)',
+            backgroundColor: palette.primaryDark,
+            boxShadow: '0 10px 30px rgba(255, 107, 107, 0.45)',
           },
         },
       },

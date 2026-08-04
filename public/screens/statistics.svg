@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#121212" />
+  <rect x="20" y="20" width="36" height="36" rx="11" fill="#FF6B6B" />
+  <rect x="30" y="42" width="6" height="8" fill="#fff" />
+  <rect x="39" y="36" width="6" height="14" fill="#fff" />
+  <rect x="48" y="30" width="6" height="20" fill="#fff" />
+  <text x="68" y="34" font-family="Inter, Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="700">Analytics</text>
+  <text x="68" y="50" font-family="Inter, Arial, sans-serif" font-size="10" fill="#A0A0A0">See where your money goes</text>
+
+  <!-- Donut chart (plain arc paths, no transforms, for maximum renderer compatibility) -->
+  <circle cx="110" cy="150" r="58" fill="none" stroke="#1E1E1E" stroke-width="26" />
+  <path d="M 110,92 A 58,58 0 0 1 137.94,200.82" fill="none" stroke="#FF6B6B" stroke-width="26" stroke-linecap="round" />
+  <path d="M 137.94,200.82 A 58,58 0 0 1 53.03,160.87" fill="none" stroke="#4ECDC4" stroke-width="26" stroke-linecap="round" />
+  <path d="M 53.03,160.87 A 58,58 0 0 1 75.91,103.08" fill="none" stroke="#FFA502" stroke-width="26" stroke-linecap="round" />
+  <text x="110" y="145" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#A0A0A0">Spending</text>
+  <text x="110" y="162" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="700">$2,340</text>
+
+  <circle cx="220" cy="120" r="5" fill="#FF6B6B" /><text x="232" y="124" font-family="Inter, Arial, sans-serif" font-size="10.5" fill="#FFFFFF">Groceries · 42%</text>
+  <circle cx="220" cy="144" r="5" fill="#4ECDC4" /><text x="232" y="148" font-family="Inter, Arial, sans-serif" font-size="10.5" fill="#FFFFFF">Bills · 30%</text>
+  <circle cx="220" cy="168" r="5" fill="#FFA502" /><text x="232" y="172" font-family="Inter, Arial, sans-serif" font-size="10.5" fill="#FFFFFF">Transport · 18%</text>
+  <circle cx="220" cy="192" r="5" fill="#333333" /><text x="232" y="196" font-family="Inter, Arial, sans-serif" font-size="10.5" fill="#A0A0A0">Other · 10%</text>
+
+  <!-- Small bar chart footer (Pro-only cash flow trend) -->
+  <rect x="20" y="230" width="360" height="1" fill="#2C2C2C" />
+  <rect x="346" y="216" width="34" height="16" rx="8" fill="#FFA502" />
+  <text x="363" y="228" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#FFFFFF" font-weight="700">PRO</text>
+  <rect x="40" y="250" width="18" height="34" rx="4" fill="#275350" />
+  <rect x="72" y="238" width="18" height="46" rx="4" fill="#30706B" />
+  <rect x="104" y="222" width="18" height="62" rx="4" fill="#4ECDC4" />
+  <rect x="136" y="248" width="18" height="36" rx="4" fill="#713636" />
+  <rect x="168" y="230" width="18" height="54" rx="4" fill="#B85050" />
+  <rect x="200" y="210" width="18" height="74" rx="4" fill="#FF6B6B" />
+</svg>

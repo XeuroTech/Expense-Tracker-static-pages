@@ -13,7 +13,7 @@ export default function HowItWorksSection() {
         <SectionHeading
           eyebrow="How It Works"
           title="Get started in five simple steps"
-          subtitle="From sign-up to your first report, ExpenseXT keeps the whole process quick and effortless."
+          subtitle="From sign-up to your first report, Expense-Tracker keeps the whole process quick and effortless."
         />
         <Grid container spacing={3}>
           {steps.map((item, index) => (

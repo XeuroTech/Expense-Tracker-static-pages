@@ -13,7 +13,7 @@ export default function TestimonialsSection() {
         <SectionHeading
           eyebrow="Testimonials"
           title="Trusted by thousands of users"
-          subtitle="Here's what people are saying about their experience with ExpenseXT."
+          subtitle="Here's what people are saying about their experience with Expense-Tracker."
         />
         <Grid container spacing={3}>
           {testimonials.map((item, index) => (

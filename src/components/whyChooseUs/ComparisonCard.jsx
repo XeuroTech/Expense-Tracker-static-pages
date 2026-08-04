@@ -29,7 +29,7 @@ export default function ComparisonCard({ icon: Icon, title, description }) {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            bgcolor: 'rgba(16, 185, 129, 0.12)',
+            bgcolor: 'rgba(78, 205, 196, 0.12)',
           }}
         >
           <Icon sx={{ color: 'secondary.main', fontSize: '1.4rem' }} />

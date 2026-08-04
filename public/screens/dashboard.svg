@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="badge1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF6B6B" /><stop offset="100%" stop-color="#4ECDC4" />
+    </linearGradient>
+    <linearGradient id="cash1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF6B6B" /><stop offset="100%" stop-color="#E14D4D" />
+    </linearGradient>
+    <linearGradient id="bank1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4ECDC4" /><stop offset="100%" stop-color="#3BA89F" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="#121212" />
+  <rect x="20" y="20" width="36" height="36" rx="11" fill="url(#badge1)" />
+  <rect x="32" y="34" width="12" height="9" rx="2" fill="#fff" />
+  <text x="68" y="34" font-family="Inter, Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="700">Dashboard</text>
+  <text x="68" y="50" font-family="Inter, Arial, sans-serif" font-size="10" fill="#A0A0A0">Your full financial overview</text>
+
+  <rect x="20" y="76" width="360" height="66" rx="16" fill="#1E1E1E" stroke="#2C2C2C" />
+  <text x="36" y="100" font-family="Inter, Arial, sans-serif" font-size="10" fill="#A0A0A0">Total Balance</text>
+  <text x="36" y="124" font-family="Inter, Arial, sans-serif" font-size="20" fill="#FFFFFF" font-weight="700">$8,240.50</text>
+
+  <rect x="20" y="154" width="112" height="48" rx="12" fill="url(#cash1)" />
+  <text x="32" y="174" font-family="Inter, Arial, sans-serif" font-size="9.5" fill="#FFFFFF" fill-opacity="0.85">Cash</text>
+  <text x="32" y="190" font-family="Inter, Arial, sans-serif" font-size="12" fill="#FFFFFF" font-weight="700">$1,240</text>
+
+  <rect x="144" y="154" width="112" height="48" rx="12" fill="url(#bank1)" />
+  <text x="156" y="174" font-family="Inter, Arial, sans-serif" font-size="9.5" fill="#FFFFFF" fill-opacity="0.85">Bank</text>
+  <text x="156" y="190" font-family="Inter, Arial, sans-serif" font-size="12" fill="#FFFFFF" font-weight="700">$5,600</text>
+
+  <rect x="268" y="154" width="112" height="48" rx="12" fill="#FFA502" />
+  <text x="280" y="174" font-family="Inter, Arial, sans-serif" font-size="9.5" fill="#FFFFFF" fill-opacity="0.85">Credit</text>
+  <text x="280" y="190" font-family="Inter, Arial, sans-serif" font-size="12" fill="#FFFFFF" font-weight="700">$1,400</text>
+
+  <text x="20" y="228" font-family="Inter, Arial, sans-serif" font-size="11" fill="#FFFFFF" font-weight="600">Recent Activity</text>
+  <circle cx="30" cy="248" r="10" fill="#FF6B6B" />
+  <text x="48" y="252" font-family="Inter, Arial, sans-serif" font-size="10.5" fill="#FFFFFF">Groceries</text>
+  <text x="380" y="252" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="10.5" fill="#FF4757" font-weight="600">-$45.20</text>
+  <circle cx="30" cy="276" r="10" fill="#2ECC71" />
+  <text x="48" y="280" font-family="Inter, Arial, sans-serif" font-size="10.5" fill="#FFFFFF">Salary</text>
+  <text x="380" y="280" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="10.5" fill="#2ECC71" font-weight="600">+$3,200.00</text>
+</svg>

@@ -25,9 +25,9 @@ export default function PlaceholderImage({
         width: '100%',
         aspectRatio: ratio,
         borderRadius: `${rounded}px`,
-        border: '1.5px dashed rgba(91, 91, 246, 0.35)',
+        border: '1.5px dashed rgba(255, 107, 107, 0.35)',
         background:
-          'linear-gradient(135deg, rgba(91, 91, 246, 0.08) 0%, rgba(16, 185, 129, 0.08) 100%)',
+          'linear-gradient(135deg, rgba(255, 107, 107, 0.08) 0%, rgba(78, 205, 196, 0.08) 100%)',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',

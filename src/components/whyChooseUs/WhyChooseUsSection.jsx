@@ -13,7 +13,7 @@ export default function WhyChooseUsSection() {
         <SectionHeading
           eyebrow="Why Choose Us"
           title="Built to be better, in every way"
-          subtitle="ExpenseXT is designed from the ground up to be the most reliable finance companion you will use."
+          subtitle="Expense-Tracker is designed from the ground up to be the most reliable finance companion you will use."
         />
         <Grid container spacing={3}>
           {whyChooseUs.map((item, index) => (

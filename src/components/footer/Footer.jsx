@@ -39,7 +39,7 @@ export default function Footer() {
       component="footer"
       sx={{
         mt: 'auto',
-        backgroundImage: 'linear-gradient(180deg, #0B0B1E 0%, #14142E 100%)',
+        backgroundImage: 'linear-gradient(180deg, #0A0A0A 0%, #1A1010 100%)',
         color: 'rgba(255,255,255,0.75)',
         pt: { xs: 6, md: 8 },
         pb: 4,
@@ -57,13 +57,13 @@ export default function Footer() {
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  backgroundImage: 'linear-gradient(135deg, #5B5BF6 0%, #10B981 100%)',
+                  backgroundImage: 'linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 100%)',
                 }}
               >
                 <AccountBalanceWalletRoundedIcon sx={{ color: '#fff', fontSize: '1.35rem' }} />
               </Box>
               <Typography variant="h6" sx={{ fontWeight: 700, color: '#fff' }}>
-                Expense<Box component="span" sx={{ color: '#8A8CFF' }}>XT</Box>
+                Expense-<Box component="span" sx={{ color: '#FF8A8A' }}>Tracker</Box>
               </Typography>
             </Stack>
             <Typography variant="body2" sx={{ maxWidth: 320, lineHeight: 1.7 }}>
@@ -135,9 +135,8 @@ export default function Footer() {
               Contact
             </Typography>
             <Stack spacing={1.25} sx={{ fontSize: '0.9rem' }}>
-              <Typography variant="body2">support@expensext.app</Typography>
+              <Typography variant="body2">support@expense-tracker.app</Typography>
               <Typography variant="body2">+1 (555) 123-4567</Typography>
-              <Typography variant="body2">123 Finance Street, Suite 400, San Francisco, CA</Typography>
             </Stack>
           </Grid>
         </Grid>
@@ -150,7 +149,7 @@ export default function Footer() {
           sx={{ justifyContent: 'space-between', alignItems: 'center' }}
         >
           <Typography variant="body2" sx={{ opacity: 0.7 }}>
-            &copy; {new Date().getFullYear()} ExpenseXT. All rights reserved.
+            &copy; {new Date().getFullYear()} Expense-Tracker. All rights reserved.
           </Typography>
           <Typography variant="body2" sx={{ opacity: 0.7 }}>
             Built with React, Vite &amp; Material UI
