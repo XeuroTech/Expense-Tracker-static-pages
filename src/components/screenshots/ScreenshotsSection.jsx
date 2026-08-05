@@ -20,7 +20,7 @@ export default function ScreenshotsSection() {
     <Box id="screenshots" sx={{ py: { xs: 8, md: 12 }, bgcolor: 'background.paper', overflow: 'hidden' }}>
       <Container maxWidth="lg">
         <SectionHeading
-          eyebrow="Screenshots"
+          eyebrow="Insides"
           title="A closer look inside the app"
           subtitle="Swipe through the core screens of Expense-Tracker, right in your pocket."
         />

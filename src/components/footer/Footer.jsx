@@ -16,7 +16,6 @@ import AccountBalanceWalletRoundedIcon from '@mui/icons-material/AccountBalanceW
 const quickLinks = [
   { label: 'Home', to: '/' },
   { label: 'Features', to: '/#features' },
-  { label: 'Screenshots', to: '/#screenshots' },
   { label: 'About Us', to: '/about' },
   { label: 'Contact', to: '/contact' },
 ];
