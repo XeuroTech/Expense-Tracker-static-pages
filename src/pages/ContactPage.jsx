@@ -3,6 +3,7 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
+import Link from '@mui/material/Link';
 import Paper from '@mui/material/Paper';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import PhoneOutlinedIcon from '@mui/icons-material/PhoneOutlined';
@@ -12,8 +13,8 @@ import Reveal from '../components/common/Reveal';
 import ContactForm from '../components/contact/ContactForm';
 
 const contactDetails = [
-  { icon: EmailOutlinedIcon, label: 'Email', value: 'support@expense-tracker.app' },
-  { icon: PhoneOutlinedIcon, label: 'Phone', value: '+1 (555) 123-4567' },
+  { icon: EmailOutlinedIcon, label: 'Email', value: 'support@expense-tracker.app', href: 'mailto:support@expense-tracker.app' },
+  { icon: PhoneOutlinedIcon, label: 'Phone', value: '+1 (555) 123-4567', href: 'tel:+15551234567' },
 ];
 
 export default function ContactPage() {
@@ -61,7 +62,13 @@ export default function ContactPage() {
                           <Typography variant="subtitle2" sx={{ fontWeight: 700 }}>
                             {detail.label}
                           </Typography>
-                          <Typography variant="body2" color="text.secondary">
+                          <Typography
+                            variant="body2"
+                            component={Link}
+                            href={detail.href}
+                            underline="hover"
+                            sx={{ color: 'text.secondary', '&:hover': { color: 'primary.main' } }}
+                          >
                             {detail.value}
                           </Typography>
                         </Box>

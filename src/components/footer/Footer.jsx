@@ -134,8 +134,12 @@ export default function Footer() {
               Contact
             </Typography>
             <Stack spacing={1.25} sx={{ fontSize: '0.9rem' }}>
-              <Typography variant="body2">support@expense-tracker.app</Typography>
-              <Typography variant="body2">+1 (555) 123-4567</Typography>
+              <Link href="mailto:support@expense-tracker.app" underline="hover" color="inherit" sx={{ '&:hover': { color: '#fff' } }}>
+                support@expense-tracker.app
+              </Link>
+              <Link href="tel:+15551234567" underline="hover" color="inherit" sx={{ '&:hover': { color: '#fff' } }}>
+                +1 (555) 123-4567
+              </Link>
             </Stack>
           </Grid>
         </Grid>
