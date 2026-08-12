@@ -1,10 +1,10 @@
-const lastUpdated = 'July 1, 2026';
+const lastUpdated = 'August 12, 2026';
 
 const termsSections = [
   {
     title: 'Acceptance of Terms',
     body: [
-      'By downloading, accessing, or using Expense-Tracker ("the App"), you agree to be bound by these Terms & Conditions. If you do not agree with any part of these terms, please do not use the App.',
+      'By downloading, accessing, or using Expense-Tracker ("the App"), an application developed and operated by XeuroTech, you agree to be bound by these Terms & Conditions. If you do not agree with any part of these terms, please do not use the App.',
     ],
   },
   {
@@ -16,7 +16,7 @@ const termsSections = [
   {
     title: 'Account Registration',
     body: [
-      'To access certain features, you must create an account with accurate and complete information. You are responsible for maintaining the confidentiality of your login credentials and for all activity that occurs under your account.',
+      'To access certain features, you must create an account with accurate and complete information and verify your email address. You are responsible for maintaining the confidentiality of your login credentials and for all activity that occurs under your account. We recommend enabling optional email two-factor authentication for additional security.',
     ],
   },
   {
@@ -33,13 +33,19 @@ const termsSections = [
   {
     title: 'Subscriptions & Payments',
     body: [
-      'Certain premium features may require a paid subscription. All fees are billed in advance and are non-refundable except where required by law. Prices may change with reasonable prior notice.',
+      'Certain premium features may require a paid Pro subscription. All fees are billed in advance and are non-refundable except where required by law. Prices may change with reasonable prior notice.',
+    ],
+  },
+  {
+    title: 'Account Deletion',
+    body: [
+      'You may permanently delete your account and all associated data at any time from the app’s Profile settings, using a secure email-verified deletion flow. Once confirmed, deletion is immediate and irreversible, and cannot be undone by us on your behalf.',
     ],
   },
   {
     title: 'Intellectual Property',
     body: [
-      'All content, trademarks, logos, and software associated with Expense-Tracker are the property of Expense-Tracker or its licensors and are protected by applicable intellectual property laws. You may not copy, modify, or distribute any part of the App without prior written consent.',
+      'All content, trademarks, logos, and software associated with Expense-Tracker are the property of XeuroTech or its licensors and are protected by applicable intellectual property laws. You may not copy, modify, or distribute any part of the App without prior written consent.',
     ],
   },
   {
@@ -51,7 +57,7 @@ const termsSections = [
   {
     title: 'Limitation of Liability',
     body: [
-      'To the fullest extent permitted by law, Expense-Tracker shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of, or inability to use, the App.',
+      'To the fullest extent permitted by law, XeuroTech shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of, or inability to use, the App.',
     ],
   },
   {
@@ -69,13 +75,13 @@ const termsSections = [
   {
     title: 'Governing Law',
     body: [
-      'These Terms are governed by and construed in accordance with the laws of the jurisdiction in which Expense-Tracker operates, without regard to its conflict of law principles.',
+      'These Terms are governed by and construed in accordance with the laws of the jurisdiction in which XeuroTech operates, without regard to its conflict of law principles.',
     ],
   },
   {
     title: 'Contact Information',
     body: [
-      'If you have any questions about these Terms & Conditions, please contact us at legal@expense-tracker.app.',
+      'If you have any questions about these Terms & Conditions, please contact XeuroTech at support@expense-tracker.app.',
     ],
   },
 ];

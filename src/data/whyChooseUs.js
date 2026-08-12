@@ -19,7 +19,7 @@ const whyChooseUs = [
   {
     icon: ShieldOutlinedIcon,
     title: 'Secure',
-    description: 'Bank-grade encryption keeps your financial data private and protected.',
+    description: 'Your data is encrypted in transit and at rest, with AES-256 protection for your backups.',
   },
   {
     icon: DevicesOutlinedIcon,

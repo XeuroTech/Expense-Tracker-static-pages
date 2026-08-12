@@ -22,8 +22,9 @@ import AccountBalanceWalletRoundedIcon from '@mui/icons-material/AccountBalanceW
 const navLinks = [
   { label: 'Home', href: '/', type: 'route' },
   { label: 'Features', href: '/#features', type: 'section' },
-  { label: 'About', href: '/about', type: 'route' },
+  { label: 'Privacy', href: '/privacy-policy', type: 'route' },
   { label: 'Contact', href: '/contact', type: 'route' },
+  { label: 'About', href: '/about', type: 'route' },
 ];
 
 export default function Navbar() {
