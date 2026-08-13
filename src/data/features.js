@@ -6,6 +6,7 @@ import EventRepeatOutlinedIcon from '@mui/icons-material/EventRepeatOutlined';
 import HandshakeOutlinedIcon from '@mui/icons-material/HandshakeOutlined';
 import InsightsOutlinedIcon from '@mui/icons-material/InsightsOutlined';
 import NotificationsActiveOutlinedIcon from '@mui/icons-material/NotificationsActiveOutlined';
+import BoltOutlinedIcon from '@mui/icons-material/BoltOutlined';
 
 // Every feature links to a mockup of its real screen in `public/screens/`.
 // Swap any file there for an actual device screenshot any time — no code
@@ -62,6 +63,12 @@ const features = [
     title: 'Smart Notifications',
     description: 'Get real-time alerts for upcoming bills, budget limits, and account activity, all in one place.',
     image: '/screens/notifications.svg',
+  },
+  {
+    icon: BoltOutlinedIcon,
+    title: 'Automations',
+    description: 'Set simple rules — like moving a percentage of every paycheck into a budget or wallet — and let the app handle it from then on.',
+    image: '/screens/automations.svg',
   },
 ];
 

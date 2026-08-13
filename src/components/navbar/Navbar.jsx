@@ -22,7 +22,7 @@ import AccountBalanceWalletRoundedIcon from '@mui/icons-material/AccountBalanceW
 const navLinks = [
   { label: 'Home', href: '/', type: 'route' },
   { label: 'Features', href: '/#features', type: 'section' },
-  { label: 'Privacy', href: '/privacy-policy', type: 'route' },
+  { label: 'FAQ', href: '/#faq', type: 'section' },
   { label: 'Contact', href: '/contact', type: 'route' },
   { label: 'About', href: '/about', type: 'route' },
 ];
@@ -192,7 +192,7 @@ export default function Navbar() {
                   to="/#hero"
                   onClick={handleNavClick({ type: 'section', href: '/#hero' })}
                 >
-                  Join Waitlist
+                  Get Started
                 </Button>
               </Stack>
             </ListItem>

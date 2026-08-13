@@ -5,14 +5,12 @@ import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import Paper from '@mui/material/Paper';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
-import PhoneOutlinedIcon from '@mui/icons-material/PhoneOutlined';
 import Seo from '../components/common/Seo';
 import PageHeader from '../components/common/PageHeader';
 import Reveal from '../components/common/Reveal';
 
 const contactDetails = [
   { icon: EmailOutlinedIcon, label: 'Email', value: 'support@expense-tracker.app', href: 'mailto:support@expense-tracker.app' },
-  { icon: PhoneOutlinedIcon, label: 'Phone', value: '+1 (555) 123-4567', href: 'tel:+15551234567' },
 ];
 
 export default function ContactPage() {
@@ -20,7 +18,7 @@ export default function ContactPage() {
     <>
       <Seo
         title="Contact Us"
-        description="Get in touch with XeuroTech, the team behind Expense-Tracker — reach us by email or phone."
+        description="Get in touch with XeuroTech, the team behind Expense-Tracker — reach us by email."
         path="/contact"
       />
       <PageHeader

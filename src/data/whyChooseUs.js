@@ -14,7 +14,7 @@ const whyChooseUs = [
   {
     icon: SpeedOutlinedIcon,
     title: 'Fast',
-    description: 'Optimized performance means instant loading and zero lag, even offline.',
+    description: 'Optimized performance means instant loading and zero lag while you track your finances.',
   },
   {
     icon: ShieldOutlinedIcon,

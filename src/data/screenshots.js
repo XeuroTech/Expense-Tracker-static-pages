@@ -20,7 +20,7 @@ const screenshots = [
   {
     image: '/screens/full/reports.svg',
     title: 'History',
-    description: 'Search and export every transaction, grouped by day.',
+    description: 'Every transaction grouped by day, with exportable records on Pro.',
   },
   {
     image: '/screens/full/categories.svg',

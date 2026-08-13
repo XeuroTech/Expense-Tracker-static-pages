@@ -38,10 +38,9 @@ export default function AboutPage() {
                   interface that's genuinely enjoyable to use.
                 </Typography>
                 <Typography variant="body1" color="text.secondary" sx={{ lineHeight: 1.8, maxWidth: 720 }}>
-                  We're putting the finishing touches on Expense-Tracker so it can help people
-                  track their spending, plan smarter budgets, and reach their savings goals
-                  faster — backed by XeuroTech's commitment to privacy, security, and great
-                  design.
+                  Expense-Tracker helps people track their spending, plan smarter budgets, and
+                  reach their savings goals faster — backed by XeuroTech's commitment to
+                  privacy, security, and great design.
                 </Typography>
               </Reveal>
             </Grid>
