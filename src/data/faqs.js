@@ -2,26 +2,25 @@ const faqs = [
   {
     question: 'Is Expense-Tracker free to use?',
     answer:
-      'Yes — core features like expense tracking, income tracking, and budget planning will always be free. A Pro plan with extra features like AI Smart Add and cloud sync will also be available.',
+      'Yes — core features like expense tracking, income tracking, and budget planning are always free. A Pro plan with extra features like AI Smart Add and cloud sync is also available.',
   },
   {
-    question: 'When is Expense-Tracker launching, and how do I find out?',
+    question: 'How do I download Expense-Tracker?',
+    answer: 'Download Expense-Tracker for free from the App Store or Google Play, then create an account to get started.',
+  },
+  {
+    question: 'Which platforms is it available on?',
+    answer: 'Expense-Tracker is available on both iOS and Android. Free users can back up data manually to Google Drive; Pro adds automatic cloud sync across devices.',
+  },
+  {
+    question: 'Is my financial data secure?',
     answer:
-      "We're putting the finishing touches on the app right now. Join the waitlist and you'll be the first to know the moment it's live.",
+      'Yes. Your data is encrypted both in transit and at rest, and it is never shared with third parties without your consent.',
   },
   {
-    question: 'Which platforms will it be available on?',
-    answer: 'Expense-Tracker will launch on both iOS and Android, with your data synced across devices.',
-  },
-  {
-    question: 'Will my financial data be secure?',
+    question: 'Does the app support multiple currencies and exportable reports?',
     answer:
-      'Yes. Your data will be encrypted both in transit and at rest, and it will never be shared with third parties without your consent.',
-  },
-  {
-    question: 'Will the app support multiple currencies and exportable reports?',
-    answer:
-      "Yes — you'll be able to set your preferred currency in Settings, and generate exportable monthly or yearly reports from the Reports section.",
+      'Yes — you can set a currency for each wallet individually, and Pro users can export their transaction history straight from the History tab.',
   },
   {
     question: "What's the difference between Free and Pro?",

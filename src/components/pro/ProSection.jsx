@@ -61,7 +61,7 @@ export default function ProSection() {
                 '&:hover': { boxShadow: '0 12px 36px rgba(255,165,2,0.45)' },
               }}
             >
-              Get Notified When Pro Launches
+              Upgrade to Pro
             </Button>
           </Box>
         </Reveal>

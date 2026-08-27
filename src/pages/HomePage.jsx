@@ -11,7 +11,7 @@ export default function HomePage() {
     <>
       <Seo
         title={null}
-        description="Expense-Tracker is a modern expense tracker to manage income, expenses, budgets, and financial reports with ease. Launching soon on iOS and Android."
+        description="Expense-Tracker is a modern expense tracker to manage income, expenses, budgets, and financial reports with ease. Available on iOS and Android."
         path="/"
       />
       <HeroSection />

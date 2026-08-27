@@ -137,9 +137,6 @@ export default function Footer() {
               <Link href="mailto:support@expense-tracker.app" underline="hover" color="inherit" sx={{ '&:hover': { color: '#fff' } }}>
                 support@expense-tracker.app
               </Link>
-              <Link href="tel:+15551234567" underline="hover" color="inherit" sx={{ '&:hover': { color: '#fff' } }}>
-                +1 (555) 123-4567
-              </Link>
             </Stack>
           </Grid>
         </Grid>

@@ -22,7 +22,7 @@ const values = [
   {
     icon: GroupsOutlinedIcon,
     title: 'Community Driven',
-    description: 'We build features based on real feedback from our growing community of users.',
+    description: 'We build features based on real feedback from the people who use the app every day.',
   },
 ];
 

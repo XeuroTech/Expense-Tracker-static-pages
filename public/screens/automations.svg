@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="badge9" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF6B6B" /><stop offset="100%" stop-color="#4ECDC4" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="#121212" />
+  <rect x="20" y="20" width="36" height="36" rx="11" fill="url(#badge9)" />
+  <path d="M39,29 L33,40 L37,40 L36,47 L43,36 L39,36 Z" fill="#fff" />
+  <text x="68" y="34" font-family="Inter, Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="700">Automations</text>
+  <text x="68" y="50" font-family="Inter, Arial, sans-serif" font-size="10" fill="#A0A0A0">Rules that run themselves</text>
+
+  <rect x="20" y="76" width="360" height="64" rx="16" fill="#1E1E1E" stroke="#2C2C2C" />
+  <circle cx="44" cy="108" r="14" fill="#FF6B6B" />
+  <path d="M45,101 L41,110 L44,110 L43,116 L48,107 L45,107 Z" fill="#fff" />
+  <text x="70" y="102" font-family="Inter, Arial, sans-serif" font-size="12.5" fill="#FFFFFF" font-weight="600">Save 10% of every Salary</text>
+  <text x="70" y="118" font-family="Inter, Arial, sans-serif" font-size="10" fill="#A0A0A0">New transaction in Salary &#8594; Savings Budget</text>
+  <rect x="326" y="98" width="40" height="20" rx="10" fill="#FF6B6B" />
+  <circle cx="356" cy="108" r="8" fill="#fff" />
+
+  <rect x="20" y="152" width="360" height="64" rx="16" fill="#1E1E1E" stroke="#2C2C2C" />
+  <circle cx="44" cy="184" r="14" fill="#4ECDC4" />
+  <path d="M45,177 L41,186 L44,186 L43,192 L48,183 L45,183 Z" fill="#fff" />
+  <text x="70" y="178" font-family="Inter, Arial, sans-serif" font-size="12.5" fill="#FFFFFF" font-weight="600">Round-up every Grocery run</text>
+  <text x="70" y="194" font-family="Inter, Arial, sans-serif" font-size="10" fill="#A0A0A0">New transaction in Groceries &#8594; Round-Up Wallet</text>
+  <rect x="326" y="174" width="40" height="20" rx="10" fill="#4ECDC4" />
+  <circle cx="356" cy="184" r="8" fill="#fff" />
+
+  <rect x="20" y="228" width="360" height="64" rx="16" fill="#1E1E1E" stroke="#2C2C2C" />
+  <circle cx="44" cy="260" r="14" fill="#333333" />
+  <path d="M45,253 L41,262 L44,262 L43,268 L48,259 L45,259 Z" fill="#888888" />
+  <text x="70" y="254" font-family="Inter, Arial, sans-serif" font-size="12.5" fill="#FFFFFF" font-weight="600">Auto-transfer Rent</text>
+  <text x="70" y="270" font-family="Inter, Arial, sans-serif" font-size="10" fill="#A0A0A0">New transaction in Rent &#8594; Checking Wallet</text>
+  <rect x="326" y="250" width="40" height="20" rx="10" fill="#333333" />
+  <circle cx="336" cy="260" r="8" fill="#888888" />
+</svg>

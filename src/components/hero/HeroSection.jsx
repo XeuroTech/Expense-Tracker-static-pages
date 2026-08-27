@@ -3,10 +3,8 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import AppleIcon from '@mui/icons-material/Apple';
-import AndroidIcon from '@mui/icons-material/Android';
 import Reveal from '../common/Reveal';
+import { APP_STORE_URL, GOOGLE_PLAY_URL } from '../../config/appLinks';
 
 export default function HeroSection() {
   return (
@@ -80,35 +78,25 @@ export default function HeroSection() {
                 beautifully simple app built to help you save more and stress less.
               </Typography>
 
-              <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2}>
-                {/* Placeholder links — swap `href="#"` for the real App Store /
-                    Play Store URLs once the app is live. */}
-                <Button
+              <Stack direction="row" spacing={1.5} sx={{ flexWrap: 'wrap' }}>
+                {/* Store links read from `src/config/appLinks.js` — swap the
+                    placeholders there for the real listing URLs once the app is live. */}
+                <Box
                   component="a"
-                  href="#"
-                  variant="contained"
-                  color="primary"
-                  size="large"
-                  startIcon={<AppleIcon />}
-                  sx={{ py: 1.4 }}
+                  href={APP_STORE_URL}
+                  aria-label="Download on the App Store"
+                  sx={{ display: 'inline-block', lineHeight: 0, transition: 'transform 0.2s ease', '&:hover': { transform: 'translateY(-2px)' } }}
                 >
-                  App Store
-                </Button>
-                <Button
+                  <Box component="img" src="/badges/app-store.svg" alt="Download on the App Store" sx={{ height: 44, display: 'block' }} />
+                </Box>
+                <Box
                   component="a"
-                  href="#"
-                  variant="outlined"
-                  size="large"
-                  startIcon={<AndroidIcon />}
-                  sx={{
-                    py: 1.4,
-                    color: '#fff',
-                    borderColor: 'rgba(255,255,255,0.3)',
-                    '&:hover': { borderColor: '#fff', bgcolor: 'rgba(255,255,255,0.06)' },
-                  }}
+                  href={GOOGLE_PLAY_URL}
+                  aria-label="Get it on Google Play"
+                  sx={{ display: 'inline-block', lineHeight: 0, transition: 'transform 0.2s ease', '&:hover': { transform: 'translateY(-2px)' } }}
                 >
-                  Google Play
-                </Button>
+                  <Box component="img" src="/badges/google-play.svg" alt="Get it on Google Play" sx={{ height: 44, display: 'block' }} />
+                </Box>
               </Stack>
             </Reveal>
           </Grid>
