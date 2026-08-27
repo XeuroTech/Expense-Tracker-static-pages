@@ -21,7 +21,7 @@ const steps = [
     step: '03',
     icon: ReceiptLongOutlinedIcon,
     title: 'Record Expenses',
-    description: 'Log daily expenses and assign them to the right category.',
+    description: 'Log daily expenses and assign them to the right category — or describe them in plain language and let AI Smart Add do it for you on Pro.',
   },
   {
     step: '04',

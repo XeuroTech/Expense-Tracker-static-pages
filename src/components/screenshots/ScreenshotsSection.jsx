@@ -1,3 +1,5 @@
+'use client';
+
 import { useRef } from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
@@ -22,7 +24,7 @@ export default function ScreenshotsSection() {
         <SectionHeading
           eyebrow="Insides"
           title="A closer look inside the app"
-          subtitle="Swipe through the core screens of Expense-Tracker, right in your pocket."
+          subtitle="Swipe through the core screens of AI-Expense Tracker, right in your pocket."
         />
       </Container>
 

@@ -1,5 +1,7 @@
+'use client';
+
 import { useEffect, useState } from 'react';
-import { Link as RouterLink, useLocation, useNavigate } from 'react-router-dom';
+import NextLink from 'next/link';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Container from '@mui/material/Container';
@@ -30,8 +32,6 @@ const navLinks = [
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const location = useLocation();
-  const navigate = useNavigate();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
@@ -40,23 +40,10 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  const handleNavClick = (link) => (event) => {
-    setMobileOpen(false);
-    if (link.type !== 'section') return;
-
-    const hash = link.href.split('#')[1];
-    if (location.pathname === '/') {
-      event.preventDefault();
-      document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth' });
-    } else {
-      // Let the router navigate to "/", then scroll after the page mounts.
-      event.preventDefault();
-      navigate('/');
-      setTimeout(() => {
-        document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth' });
-      }, 100);
-    }
-  };
+  // Navigation (including scrolling to a section's hash, from any page) is
+  // handled by <ScrollToTop> on every route change — this just closes the
+  // mobile drawer after a link is tapped.
+  const closeMobileDrawer = () => setMobileOpen(false);
 
   return (
     <>
@@ -75,8 +62,8 @@ export default function Navbar() {
         <Container maxWidth="lg">
           <Toolbar disableGutters sx={{ py: 1.25, justifyContent: 'space-between' }}>
             <Stack
-              component={RouterLink}
-              to="/"
+              component={NextLink}
+              href="/"
               direction="row"
               spacing={1}
               sx={{ textDecoration: 'none', color: 'text.primary', alignItems: 'center' }}
@@ -95,7 +82,7 @@ export default function Navbar() {
                 <AccountBalanceWalletRoundedIcon sx={{ color: '#fff', fontSize: '1.35rem' }} />
               </Box>
               <Typography variant="h6" sx={{ fontWeight: 700 }}>
-                Expense-<Box component="span" sx={{ color: 'primary.main' }}>Tracker</Box>
+                AI-Expense <Box component="span" sx={{ color: 'primary.main' }}>Tracker</Box>
               </Typography>
             </Stack>
 
@@ -103,9 +90,9 @@ export default function Navbar() {
               {navLinks.map((link) => (
                 <Button
                   key={link.label}
-                  component={RouterLink}
-                  to={link.href}
-                  onClick={handleNavClick(link)}
+                  component={NextLink}
+                  href={link.href}
+                  onClick={closeMobileDrawer}
                   sx={{ color: 'text.primary', fontWeight: 500, borderRadius: 2 }}
                 >
                   {link.label}
@@ -116,9 +103,9 @@ export default function Navbar() {
             <Stack direction="row" spacing={1} sx={{ display: { xs: 'none', md: 'flex' } }}>
               <Button
                 variant="outlined"
-                component={RouterLink}
-                to="/pro"
-                onClick={handleNavClick({ type: 'route', href: '/pro' })}
+                component={NextLink}
+                href="/pro"
+                onClick={closeMobileDrawer}
                 sx={{
                   color: '#FFA502',
                   borderColor: 'rgba(255,165,2,0.5)',
@@ -130,9 +117,9 @@ export default function Navbar() {
               <Button
                 variant="contained"
                 color="primary"
-                component={RouterLink}
-                to="/#hero"
-                onClick={handleNavClick({ type: 'section', href: '/#hero' })}
+                component={NextLink}
+                href="/#hero"
+                onClick={closeMobileDrawer}
               >
                 Get Started
               </Button>
@@ -163,7 +150,7 @@ export default function Navbar() {
           <List>
             {navLinks.map((link) => (
               <ListItem key={link.label} disablePadding>
-                <ListItemButton component={RouterLink} to={link.href} onClick={handleNavClick(link)}>
+                <ListItemButton component={NextLink} href={link.href} onClick={closeMobileDrawer}>
                   <ListItemText primary={link.label} />
                 </ListItemButton>
               </ListItem>
@@ -173,9 +160,9 @@ export default function Navbar() {
                 <Button
                   fullWidth
                   variant="outlined"
-                  component={RouterLink}
-                  to="/pro"
-                  onClick={handleNavClick({ type: 'route', href: '/pro' })}
+                  component={NextLink}
+                  href="/pro"
+                  onClick={closeMobileDrawer}
                   sx={{
                     color: '#FFA502',
                     borderColor: 'rgba(255,165,2,0.5)',
@@ -188,9 +175,9 @@ export default function Navbar() {
                   fullWidth
                   variant="contained"
                   color="primary"
-                  component={RouterLink}
-                  to="/#hero"
-                  onClick={handleNavClick({ type: 'section', href: '/#hero' })}
+                  component={NextLink}
+                  href="/#hero"
+                  onClick={closeMobileDrawer}
                 >
                   Get Started
                 </Button>

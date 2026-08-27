@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" width="120" height="40">
-  <rect width="120" height="40" rx="6" fill="#000000" stroke="#4d4d4d" stroke-width="0.6" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 40" width="128" height="40">
+  <rect width="128" height="40" rx="6" fill="#000000" stroke="#4d4d4d" stroke-width="0.6" />
 
   <g transform="translate(13,9) scale(0.85)">
     <path
@@ -8,6 +8,6 @@
     />
   </g>
 
-  <text x="38" y="16" font-family="Arial, sans-serif" font-size="7" fill="#FFFFFF" letter-spacing="0.3">Download on the</text>
-  <text x="38" y="30" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="600">App Store</text>
+  <text x="36" y="16" font-family="Arial, sans-serif" font-size="7" fill="#FFFFFF" letter-spacing="0.3">Download on the</text>
+  <text x="36" y="30" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" font-weight="600">App Store</text>
 </svg>

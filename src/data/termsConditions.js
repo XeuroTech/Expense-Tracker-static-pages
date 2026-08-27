@@ -4,13 +4,13 @@ const termsSections = [
   {
     title: 'Acceptance of Terms',
     body: [
-      'By downloading, accessing, or using Expense-Tracker ("the App"), an application developed and operated by XeuroTech, you agree to be bound by these Terms & Conditions. If you do not agree with any part of these terms, please do not use the App.',
+      'By downloading, accessing, or using AI-Expense Tracker ("the App"), an application developed and operated by XeuroTech, you agree to be bound by these Terms & Conditions. If you do not agree with any part of these terms, please do not use the App.',
     ],
   },
   {
     title: 'Eligibility',
     body: [
-      'You must be at least 13 years old to use Expense-Tracker. By using the App, you represent and warrant that you meet this age requirement and have the legal capacity to enter into these Terms.',
+      'You must be at least 13 years old to use AI-Expense Tracker. By using the App, you represent and warrant that you meet this age requirement and have the legal capacity to enter into these Terms.',
     ],
   },
   {
@@ -22,7 +22,7 @@ const termsSections = [
   {
     title: 'Acceptable Use',
     bullets: true,
-    intro: 'When using Expense-Tracker, you agree not to:',
+    intro: 'When using AI-Expense Tracker, you agree not to:',
     body: [
       'Use the App for any unlawful purpose or in violation of any applicable law.',
       'Attempt to gain unauthorized access to the App, servers, or connected systems.',
@@ -45,13 +45,13 @@ const termsSections = [
   {
     title: 'Intellectual Property',
     body: [
-      'All content, trademarks, logos, and software associated with Expense-Tracker are the property of XeuroTech or its licensors and are protected by applicable intellectual property laws. You may not copy, modify, or distribute any part of the App without prior written consent.',
+      'All content, trademarks, logos, and software associated with AI-Expense Tracker are the property of XeuroTech or its licensors and are protected by applicable intellectual property laws. You may not copy, modify, or distribute any part of the App without prior written consent.',
     ],
   },
   {
     title: 'Disclaimer of Warranties',
     body: [
-      'Expense-Tracker is provided on an "as is" and "as available" basis. We do not guarantee that the App will be uninterrupted, error-free, or fully accurate, and the App is not a substitute for professional financial advice.',
+      'AI-Expense Tracker is provided on an "as is" and "as available" basis. We do not guarantee that the App will be uninterrupted, error-free, or fully accurate, and the App is not a substitute for professional financial advice.',
     ],
   },
   {

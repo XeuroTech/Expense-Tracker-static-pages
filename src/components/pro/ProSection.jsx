@@ -1,58 +1,39 @@
-import { Link as RouterLink, useLocation, useNavigate } from 'react-router-dom';
+'use client';
+
+import NextLink from 'next/link';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import Grid from '@mui/material/Grid';
 import Button from '@mui/material/Button';
 import Reveal from '../common/Reveal';
-import ProFeatureCard from './ProFeatureCard';
-import PlanComparisonTable from './PlanComparisonTable';
-import proFeatures from '../../data/proFeatures';
+import ProFeaturesShowcase from './ProFeaturesShowcase';
+import PlanCards from './PlanCards';
 
 /**
  * Body content for the dedicated Pro page — three flagship Pro-only
- * features, a Free vs Pro comparison table, and a CTA. The page-level
- * heading (eyebrow/title/subtitle) lives in `PageHeader` on `ProPage.jsx`.
+ * features (hover/tap a feature to preview its real screen, same pattern
+ * as the home page's Features section), the Free / Pro Monthly / Pro
+ * Yearly plan cards, and a CTA. The page-level heading (eyebrow/title/
+ * subtitle) lives in `PageHeader` on `ProPage.jsx`.
  */
 export default function ProSection() {
-  const location = useLocation();
-  const navigate = useNavigate();
-
-  const handleCtaClick = (event) => {
-    if (location.pathname === '/') {
-      event.preventDefault();
-      document.getElementById('hero')?.scrollIntoView({ behavior: 'smooth' });
-    } else {
-      event.preventDefault();
-      navigate('/');
-      setTimeout(() => document.getElementById('hero')?.scrollIntoView({ behavior: 'smooth' }), 100);
-    }
-  };
-
+  // Scrolling to the hero section (including from a different page, like
+  // this one) is handled by <ScrollToTop> on every route change.
   return (
     <Box sx={{ py: { xs: 8, md: 12 } }}>
       <Container maxWidth="lg">
-        <Grid container spacing={3} sx={{ mb: { xs: 5, md: 7 } }}>
-          {proFeatures.map((feature, index) => (
-            <Grid key={feature.title} size={{ xs: 12, sm: 6, md: 4 }}>
-              <Reveal delay={index * 60} sx={{ height: '100%' }}>
-                <ProFeatureCard {...feature} />
-              </Reveal>
-            </Grid>
-          ))}
-        </Grid>
+        <Box sx={{ mb: { xs: 6, md: 8 } }}>
+          <ProFeaturesShowcase />
+        </Box>
 
         <Reveal delay={100}>
-          <Box sx={{ maxWidth: 640, mx: 'auto' }}>
-            <PlanComparisonTable />
-          </Box>
+          <PlanCards />
         </Reveal>
 
         <Reveal delay={150}>
           <Box sx={{ textAlign: 'center', mt: { xs: 4, md: 5 } }}>
             <Button
-              component={RouterLink}
-              to="/#hero"
-              onClick={handleCtaClick}
+              component={NextLink}
+              href="/#hero"
               variant="contained"
               size="large"
               sx={{

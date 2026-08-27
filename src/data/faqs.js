@@ -1,16 +1,16 @@
 const faqs = [
   {
-    question: 'Is Expense-Tracker free to use?',
+    question: 'Is AI-Expense Tracker free to use?',
     answer:
       'Yes — core features like expense tracking, income tracking, and budget planning are always free. A Pro plan with extra features like AI Smart Add and cloud sync is also available.',
   },
   {
-    question: 'How do I download Expense-Tracker?',
-    answer: 'Download Expense-Tracker for free from the App Store or Google Play, then create an account to get started.',
+    question: 'How do I download AI-Expense Tracker?',
+    answer: 'Download AI-Expense Tracker for free from the App Store or Google Play, then create an account to get started.',
   },
   {
     question: 'Which platforms is it available on?',
-    answer: 'Expense-Tracker is available on both iOS and Android. Free users can back up data manually to Google Drive; Pro adds automatic cloud sync across devices.',
+    answer: 'AI-Expense Tracker is available on both iOS and Android. Free users can back up data manually to Google Drive; Pro adds automatic cloud sync across devices.',
   },
   {
     question: 'Is my financial data secure?',

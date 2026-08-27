@@ -1,3 +1,5 @@
+'use client';
+
 import { useState } from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
@@ -89,10 +91,12 @@ export default function FeaturesSection() {
             })}
           </Stack>
 
-          <Box sx={{ flex: 1, position: 'sticky', top: 96, alignSelf: 'flex-start' }}>
+          <Box sx={{ flex: 1, position: 'sticky', top: 96, alignSelf: 'flex-start', display: 'flex', justifyContent: 'center' }}>
             <Reveal delay={100}>
               <Box
                 sx={{
+                  maxWidth: 300,
+                  mx: 'auto',
                   borderRadius: 4,
                   overflow: 'hidden',
                   border: '1px solid',
@@ -108,8 +112,10 @@ export default function FeaturesSection() {
                   sx={{
                     width: '100%',
                     display: 'block',
-                    aspectRatio: '4 / 3',
-                    objectFit: 'cover',
+                    // Real screenshots are 591x1280 — show the full screen
+                    // uncropped instead of forcing it into a landscape box.
+                    aspectRatio: '591 / 1280',
+                    objectFit: 'contain',
                     animation: 'featureFadeIn 0.35s ease',
                     '@keyframes featureFadeIn': {
                       from: { opacity: 0.3 },
@@ -195,16 +201,17 @@ export default function FeaturesSection() {
                     />
                   </Box>
                   <Collapse in={isOpen} timeout={250} unmountOnExit>
-                    <Box sx={{ p: 2, pt: 0 }}>
+                    <Box sx={{ p: 2, pt: 0, display: 'flex', justifyContent: 'center' }}>
                       <Box
                         component="img"
                         src={feature.image}
                         alt={`${feature.title} screen preview`}
                         sx={{
                           width: '100%',
-                          aspectRatio: '4 / 3',
+                          maxWidth: 220,
+                          aspectRatio: '591 / 1280',
                           display: 'block',
-                          objectFit: 'cover',
+                          objectFit: 'contain',
                           borderRadius: 3,
                           border: '1px solid',
                           borderColor: 'divider',

@@ -1,8 +1,9 @@
 import TouchAppOutlinedIcon from '@mui/icons-material/TouchAppOutlined';
+import AutoAwesomeOutlinedIcon from '@mui/icons-material/AutoAwesomeOutlined';
 import SpeedOutlinedIcon from '@mui/icons-material/SpeedOutlined';
 import ShieldOutlinedIcon from '@mui/icons-material/ShieldOutlined';
 import DevicesOutlinedIcon from '@mui/icons-material/DevicesOutlined';
-import AutoAwesomeOutlinedIcon from '@mui/icons-material/AutoAwesomeOutlined';
+import PaletteOutlinedIcon from '@mui/icons-material/PaletteOutlined';
 import QueryStatsOutlinedIcon from '@mui/icons-material/QueryStatsOutlined';
 
 const whyChooseUs = [
@@ -10,6 +11,11 @@ const whyChooseUs = [
     icon: TouchAppOutlinedIcon,
     title: 'Easy to Use',
     description: 'An intuitive interface designed so anyone can start tracking finances instantly.',
+  },
+  {
+    icon: AutoAwesomeOutlinedIcon,
+    title: 'AI-Powered',
+    description: 'Describe a transaction in plain language and let AI fill in the amount, category, and wallet — Smart Add is available on Pro.',
   },
   {
     icon: SpeedOutlinedIcon,
@@ -27,7 +33,7 @@ const whyChooseUs = [
     description: 'A seamless experience across mobile, tablet, and desktop devices.',
   },
   {
-    icon: AutoAwesomeOutlinedIcon,
+    icon: PaletteOutlinedIcon,
     title: 'Clean Design',
     description: 'A modern, distraction-free interface that makes managing money enjoyable.',
   },

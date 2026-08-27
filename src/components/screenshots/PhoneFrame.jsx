@@ -1,3 +1,5 @@
+'use client';
+
 import Box from '@mui/material/Box';
 
 // A CSS phone bezel wrapping a portrait app-screen image, so screenshots
