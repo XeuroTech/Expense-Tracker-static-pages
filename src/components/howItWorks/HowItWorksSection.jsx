@@ -1,3 +1,5 @@
+'use client';
+
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
@@ -13,7 +15,7 @@ export default function HowItWorksSection() {
         <SectionHeading
           eyebrow="How It Works"
           title="Get started in five simple steps"
-          subtitle="From sign-up to your first report, Expense-Tracker keeps the whole process quick and effortless."
+          subtitle="From sign-up to your first report, AI-Expense Tracker keeps the whole process quick and effortless."
         />
         <Grid container spacing={3}>
           {steps.map((item, index) => (

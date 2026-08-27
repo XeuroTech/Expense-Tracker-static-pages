@@ -1,3 +1,5 @@
+'use client';
+
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
@@ -13,7 +15,7 @@ export default function WhyChooseUsSection() {
         <SectionHeading
           eyebrow="Why Choose Us"
           title="Built to be better, in every way"
-          subtitle="Expense-Tracker is designed from the ground up to be the most reliable finance companion you will use."
+          subtitle="AI-Expense Tracker is designed from the ground up to be the most reliable finance companion you will use."
         />
         <Grid container spacing={3}>
           {whyChooseUs.map((item, index) => (

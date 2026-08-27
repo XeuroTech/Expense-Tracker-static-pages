@@ -4,13 +4,13 @@ const privacyPolicySections = [
   {
     title: 'Introduction',
     body: [
-      'Expense-Tracker ("the App") is developed and operated by XeuroTech ("we", "our", or "us"). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains what information we collect, how we use it, and what rights you have in relation to it.',
-      'By using the Expense-Tracker application, you agree to the collection and use of information in accordance with this policy.',
+      'AI-Expense Tracker ("the App") is developed and operated by XeuroTech ("we", "our", or "us"). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains what information we collect, how we use it, and what rights you have in relation to it.',
+      'By using the AI-Expense Tracker application, you agree to the collection and use of information in accordance with this policy.',
     ],
   },
   {
     title: 'Information We Collect',
-    intro: 'We may collect the following types of information when you use Expense-Tracker:',
+    intro: 'We may collect the following types of information when you use AI-Expense Tracker:',
     bullets: true,
     body: [
       'Account information such as your name, email address, password, and optional profile photo.',
@@ -74,7 +74,7 @@ const privacyPolicySections = [
   {
     title: "Children's Privacy",
     body: [
-      'Expense-Tracker is not directed at children under the age of 13, and we do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us so we can remove it.',
+      'AI-Expense Tracker is not directed at children under the age of 13, and we do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us so we can remove it.',
     ],
   },
   {

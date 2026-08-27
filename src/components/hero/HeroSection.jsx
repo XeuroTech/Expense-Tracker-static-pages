@@ -1,8 +1,11 @@
+'use client';
+
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
+import AutoAwesomeRoundedIcon from '@mui/icons-material/AutoAwesomeRounded';
 import Reveal from '../common/Reveal';
 import { APP_STORE_URL, GOOGLE_PLAY_URL } from '../../config/appLinks';
 
@@ -51,6 +54,25 @@ export default function HeroSection() {
         <Grid container spacing={{ xs: 5, md: 4 }} sx={{ alignItems: 'center' }}>
           <Grid size={{ xs: 12, md: 6 }}>
             <Reveal>
+              <Stack
+                direction="row"
+                spacing={0.75}
+                sx={{
+                  alignItems: 'center',
+                  width: 'fit-content',
+                  mb: 2,
+                  px: 1.5,
+                  py: 0.5,
+                  borderRadius: 10,
+                  border: '1px solid rgba(255,138,138,0.35)',
+                  bgcolor: 'rgba(255,107,107,0.08)',
+                }}
+              >
+                <AutoAwesomeRoundedIcon sx={{ fontSize: '1rem', color: '#FF8A8A' }} />
+                <Typography variant="body2" sx={{ color: '#FF8A8A', fontWeight: 600, fontSize: '0.8rem' }}>
+                  AI-Powered
+                </Typography>
+              </Stack>
               <Typography
                 variant="h1"
                 sx={{
@@ -116,8 +138,8 @@ export default function HeroSection() {
                 />
                 <Box
                   component="img"
-                  src="/app-preview.svg"
-                  alt="Expense-Tracker app home screen preview"
+                  src="/screens/real/dashboard.jpg"
+                  alt="AI-Expense Tracker app home screen preview"
                   sx={{
                     position: 'relative',
                     width: '100%',

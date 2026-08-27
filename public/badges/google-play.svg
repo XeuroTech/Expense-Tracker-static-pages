@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" width="120" height="40">
-  <rect width="120" height="40" rx="6" fill="#000000" stroke="#4d4d4d" stroke-width="0.6" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 40" width="128" height="40">
+  <rect width="128" height="40" rx="6" fill="#000000" stroke="#4d4d4d" stroke-width="0.6" />
 
   <g transform="translate(9,7)">
-    <polygon points="3,2 3,20 8.67,11" fill="#29B6F6" />
-    <polygon points="3,2 11.5,6.5 8.67,11" fill="#FFC107" />
-    <polygon points="11.5,6.5 20,11 8.67,11" fill="#4CAF50" />
-    <polygon points="3,20 20,11 8.67,11" fill="#F44336" />
+    <path fill="#29B6F6" d="M3,3 L10,12 L3,21 Z" />
+    <path fill="#4CAF50" d="M3,3 L18,10.3 L10,12 Z" />
+    <path fill="#FFC107" d="M18,10.3 Q21,12 18,13.7 L10,12 Z" />
+    <path fill="#F44336" d="M18,13.7 L3,21 L10,12 Z" />
   </g>
 
-  <text x="38" y="16" font-family="Arial, sans-serif" font-size="7" fill="#FFFFFF" letter-spacing="0.3">GET IT ON</text>
-  <text x="38" y="30" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="600">Google Play</text>
+  <text x="36" y="16" font-family="Arial, sans-serif" font-size="7" fill="#FFFFFF" letter-spacing="0.3">GET IT ON</text>
+  <text x="36" y="30" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" font-weight="600">Google Play</text>
 </svg>
