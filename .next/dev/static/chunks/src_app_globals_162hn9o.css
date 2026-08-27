@@ -1,0 +1,35 @@
+/* [project]/src/app/globals.css [app-client] (css) */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100svh;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.reveal {
+  opacity: 0;
+  transition: opacity .7s, transform .7s;
+  transform: translateY(24px);
+}
+
+.reveal.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+::selection {
+  background: #ff6b6b40;
+}
+
+/*# sourceMappingURL=src_app_globals_162hn9o.css.map*/

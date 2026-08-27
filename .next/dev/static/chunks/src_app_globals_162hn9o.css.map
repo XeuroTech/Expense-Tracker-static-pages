@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///E:/expense-tracker-static/Expense-tracker-static-page/src/app/globals.css"],"sourcesContent":["* {\n  box-sizing: border-box;\n}\n\nhtml {\n  scroll-behavior: smooth;\n}\n\nbody {\n  margin: 0;\n  min-height: 100svh;\n}\n\nimg {\n  max-width: 100%;\n  display: block;\n}\n\n/* Scroll-reveal utility toggled by the useScrollReveal hook */\n.reveal {\n  opacity: 0;\n  transform: translateY(24px);\n  transition: opacity 0.7s ease, transform 0.7s ease;\n}\n\n.reveal.reveal-visible {\n  opacity: 1;\n  transform: translateY(0);\n}\n\n::selection {\n  background: rgba(255, 107, 107, 0.25);\n}\n"],"names":[],"mappings":"AAAA;;;;AAIA;;;;AAIA;;;;;AAKA;;;;;AAMA;;;;;;AAMA;;;;;AAKA"}}]
+}
