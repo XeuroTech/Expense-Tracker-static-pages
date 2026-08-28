@@ -2,7 +2,7 @@
 const nextConfig = {
   // Standalone output is required by Cloudflare's OpenNext adapter
   // (`opennextjs-cloudflare build` reads `.next/standalone`).
-  output: 'standalone',
+  output: "standalone",
   images: {
     unoptimized: true,
   },
