@@ -1,14 +1,15 @@
-import Box from '@mui/material/Box';
-import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
-import PageHeader from '../../components/common/PageHeader';
-import LegalSection from '../../components/common/LegalSection';
-import privacyPolicySections, { lastUpdated } from '../../data/privacyPolicy';
+import Box from "@mui/material/Box";
+import Container from "@mui/material/Container";
+import Typography from "@mui/material/Typography";
+import PageHeader from "../../components/common/PageHeader";
+import LegalSection from "../../components/common/LegalSection";
+import privacyPolicySections, { lastUpdated } from "../../data/privacyPolicy";
 
 export const metadata = {
-  title: 'Privacy Policy',
-  description: 'Read the AI-Expense Tracker Privacy Policy to learn how we collect, use, and protect your personal and financial information.',
-  alternates: { canonical: '/privacy-policy' },
+  title: "Privacy Policy",
+  description:
+    "Read the AI Expense Tracker Privacy Policy to learn how XeuroTech collects, uses, and shares information in the AI Expense Tracker apps and on related sites.",
+  alternates: { canonical: "/privacy-policy" },
 };
 
 export default function PrivacyPolicyPage() {
@@ -17,7 +18,7 @@ export default function PrivacyPolicyPage() {
       <PageHeader
         eyebrow="Legal"
         title="Privacy Policy"
-        subtitle="Your privacy matters to us. Here's exactly how we handle your data."
+        subtitle="AI Expense Tracker, operated by XeuroTech. This policy covers the AI Expense Tracker apps, related account pages, and this website."
       />
       <Box sx={{ py: { xs: 6, md: 10 } }}>
         <Container maxWidth="md">

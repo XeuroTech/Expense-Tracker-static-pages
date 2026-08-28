@@ -10,7 +10,7 @@ import values from '../../data/values';
 
 export const metadata = {
   title: 'About Us',
-  description: "Learn about AI-Expense Tracker's mission and values, built by XeuroTech to make personal finance simpler for everyone.",
+  description: "Learn about AI Expense Tracker's mission and values, built by XeuroTech to make personal finance simpler for everyone.",
   alternates: { canonical: '/about' },
 };
 
@@ -32,13 +32,13 @@ export default function AboutPage() {
                   Our Story
                 </Typography>
                 <Typography variant="body1" color="text.secondary" sx={{ lineHeight: 1.8, mb: 2, maxWidth: 720 }}>
-                  AI-Expense Tracker is built by XeuroTech to solve a simple problem: most expense
+                  AI Expense Tracker is built by XeuroTech to solve a simple problem: most expense
                   trackers are either too complicated or too limited. Our goal was to build the
                   app we always wanted — one that combines powerful budgeting tools with an
                   interface that's genuinely enjoyable to use.
                 </Typography>
                 <Typography variant="body1" color="text.secondary" sx={{ lineHeight: 1.8, maxWidth: 720 }}>
-                  AI-Expense Tracker helps people track their spending, plan smarter budgets, and
+                  AI Expense Tracker helps people track their spending, plan smarter budgets, and
                   reach their savings goals faster — with AI doing the heavy lifting on data entry
                   through Smart Add, backed by XeuroTech's commitment to privacy, security, and
                   great design.

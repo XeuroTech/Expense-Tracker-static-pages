@@ -1,14 +1,15 @@
-import Box from '@mui/material/Box';
-import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
-import PageHeader from '../../components/common/PageHeader';
-import LegalSection from '../../components/common/LegalSection';
-import termsSections, { lastUpdated } from '../../data/termsConditions';
+import Box from "@mui/material/Box";
+import Container from "@mui/material/Container";
+import Typography from "@mui/material/Typography";
+import PageHeader from "../../components/common/PageHeader";
+import LegalSection from "../../components/common/LegalSection";
+import termsSections, { lastUpdated } from "../../data/termsConditions";
 
 export const metadata = {
-  title: 'Terms & Conditions',
-  description: 'Read the AI-Expense Tracker Terms & Conditions covering account use, subscriptions, intellectual property, and liability.',
-  alternates: { canonical: '/terms-conditions' },
+  title: "Terms & Conditions",
+  description:
+    "Read the AI Expense Tracker Terms & Conditions covering account use, subscriptions, intellectual property, and liability.",
+  alternates: { canonical: "/terms-conditions" },
 };
 
 export default function TermsConditionsPage() {
@@ -17,7 +18,7 @@ export default function TermsConditionsPage() {
       <PageHeader
         eyebrow="Legal"
         title="Terms & Conditions"
-        subtitle="Please read these terms carefully before using AI-Expense Tracker."
+        subtitle="Please read these terms carefully before using AI Expense Tracker."
       />
       <Box sx={{ py: { xs: 6, md: 10 } }}>
         <Container maxWidth="md">

@@ -5,9 +5,9 @@ import Footer from '../components/footer/Footer';
 import './globals.css';
 
 const SITE_URL = 'https://www.expense-tracker.app';
-const SITE_NAME = 'AI-Expense Tracker';
+const SITE_NAME = 'AI Expense Tracker';
 const DEFAULT_DESCRIPTION =
-  'AI-Expense Tracker is a modern, AI-powered expense tracker to manage income, expenses, budgets, and financial reports with ease.';
+  'AI Expense Tracker is a modern, AI-powered expense tracker to manage income, expenses, budgets, and financial reports with ease.';
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),

@@ -7,7 +7,7 @@ import FaqSection from '../components/faq/FaqSection';
 
 export const metadata = {
   description:
-    'AI-Expense Tracker is a modern, AI-powered expense tracker to manage income, expenses, budgets, and financial reports with ease. Available on iOS and Android.',
+    'AI Expense Tracker is a modern, AI-powered expense tracker to manage income, expenses, budgets, and financial reports with ease. Available on iOS and Android.',
   alternates: { canonical: '/' },
 };
 

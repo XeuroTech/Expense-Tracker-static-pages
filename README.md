@@ -1,6 +1,6 @@
-# AI-Expense Tracker — Marketing Site
+# AI Expense Tracker — Marketing Site
 
-Next.js (App Router) static site for the AI-Expense Tracker mobile app.
+Next.js (App Router) static site for the AI Expense Tracker mobile app.
 
 ## Getting started
 

@@ -13,7 +13,7 @@
   <rect width="1200" height="630" fill="url(#bg)" />
   <rect x="80" y="80" width="96" height="96" rx="24" fill="url(#mark)" />
   <path d="M110 118a16 16 0 0 1 16-16h48a8 8 0 0 1 8 8v6H126a8 8 0 1 0 0 16h56a8 8 0 0 1 8 8v34a8 8 0 0 1-8 8h-56a16 16 0 0 1-16-16z" fill="#fff" opacity="0.95" />
-  <text x="200" y="150" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">AI-Expense <tspan fill="#FF8A8A">Tracker</tspan></text>
+  <text x="200" y="150" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">AI Expense <tspan fill="#FF8A8A">Tracker</tspan></text>
   <text x="80" y="280" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">Track Expenses. Plan Budgets.</text>
   <text x="80" y="340" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#FF8A8A">Grow Savings.</text>
   <text x="80" y="400" font-family="Arial, sans-serif" font-size="24" fill="rgba(255,255,255,0.7)">A modern, secure, and simple expense tracker for iOS &amp; Android.</text>
