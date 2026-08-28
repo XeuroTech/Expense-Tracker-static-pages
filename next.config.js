@@ -1,3 +1,5 @@
+import { initOpenNextCloudflareForDev } from "@opennextjs/cloudflare";
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // Standalone output is required by Cloudflare's OpenNext adapter
@@ -9,3 +11,5 @@ const nextConfig = {
 };
 
 export default nextConfig;
+
+initOpenNextCloudflareForDev();
