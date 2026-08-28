@@ -7,13 +7,13 @@ Next.js (App Router) static site for the AI-Expense Tracker mobile app.
 ```bash
 npm install
 npm run dev      # local dev server at http://localhost:3000
-npm run build    # static export -> ./out
+npm run build    # Next.js production build (standalone output)
 npm run lint     # oxlint
 ```
 
-`next.config.js` sets `output: 'export'`, so `npm run build` produces a fully
-static `out/` folder (no Node server required) — upload it to any static
-host (Netlify, Vercel, Cloudflare Pages, S3, etc.).
+`next.config.js` sets `output: 'standalone'` so Cloudflare's OpenNext adapter
+can package the app for Workers. Run `npm start` after a build to serve it
+locally.
 
 ## Structure
 
