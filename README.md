@@ -7,7 +7,7 @@ Next.js (App Router) static site for the AI-Expense Tracker mobile app.
 ```bash
 npm install
 npm run dev      # local dev server at http://localhost:3000
-npm run build    # Next.js production build (standalone output)
+npm run build    # Next.js + OpenNext Cloudflare worker bundle
 npm run lint     # oxlint
 ```
 
